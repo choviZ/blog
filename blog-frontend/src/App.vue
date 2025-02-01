@@ -1,7 +1,10 @@
 <template>
-  <BasicLayout/>
+  <div>
+    <router-view/>
+  </div>
 </template>
 
 <script setup lang="ts">
-import BasicLayout from '@/layout/BasicLayout.vue'
+import AdminLayout from '@/layout/admin/AdminLayout.vue'
+
 </script>

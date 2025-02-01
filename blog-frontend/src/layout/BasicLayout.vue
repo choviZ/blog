@@ -4,10 +4,10 @@
       <GlobalHeader/>
     </a-layout-header>
     <a-layout-content style="padding: 0 50px">
-      内容
+      <router-view/>
     </a-layout-content>
     <a-layout-footer style="text-align: center">
-      个人博客
+      个人博客ByChoviZ
     </a-layout-footer>
   </a-layout>
 </template>
